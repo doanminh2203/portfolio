@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 
 const PROFILE = {
-  name: 'Khanh Map',
+  name: 'Minh Doan',
   username: 'doanminh2203',
   email: 'mminhdoan2203@gmail.com',
   location: 'Vietnam',
