@@ -278,9 +278,7 @@ function App() {
 
           <div className="about-box">
             <p>
-              Hi, I am <strong>{PROFILE.name}</strong>. This portfolio is inspired by a clean
-              academic-style website, but customized for a developer profile with GitHub projects,
-              contact links, and a simple responsive layout.
+              Hi, I am <strong>{PROFILE.name}</strong>. I am Minh Nhat Doan, an Automation and Control Engineering graduate and current Master’s student in Electrical Engineering at International University – Vietnam National University, HCMC. My work focuses on embedded systems, robotics, AIoT, signal processing, and machine learning applications for real-world engineering problems. I have experience as a teaching assistant, product developer, and researcher, with projects involving EEG-based brain-computer interfaces, IoT gas detection, robotic systems, and biomedical signal analysis.
             </p>
 
             <p>
