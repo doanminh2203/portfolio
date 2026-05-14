@@ -13,7 +13,7 @@ const PROFILE = {
     'Python',
     'GitHub',
     'Embedded System',
-    'AI',
+    'Deep Learning',
     'Product Developer',
     'Research',
   ],
