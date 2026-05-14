@@ -7,7 +7,7 @@ const PROFILE = {
   location: 'Vietnam',
   role: 'Fresher Developer · GitHub Portfolio',
   github: 'https://github.com/doanminh2203',
-  bio: 'Automation & Control engineering at International University - VNU HCM. Reasearch in Machine Learning & Deep Learning for Biomedical application',
+  bio: 'Automation & Control engineering at International University - VNU. Reasearch in Machine Learning & Deep Learning for Biomedical application',
   tags: [
     'C/C++',
     'Python',
