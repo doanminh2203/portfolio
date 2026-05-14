@@ -9,13 +9,13 @@ const PROFILE = {
   github: 'https://github.com/doanminh2203',
   bio: 'I build practical software projects, learn by shipping, and use GitHub as my public workspace.',
   tags: [
-    'React',
-    'JavaScript',
+    'C/C++',
+    'Python',
     'GitHub',
-    'Web Development',
-    'Student Projects',
-    'UI/UX',
-    'Learning in Public',
+    'Embedded System',
+    'AI',
+    'Product Developer',
+    'Research',
   ],
 }
 
