@@ -278,7 +278,7 @@ function App() {
 
           <div className="about-box">
             <p>
-              Hi, I am <strong>{PROFILE.name}</strong>. I am Minh Nhat Doan, an Automation and Control Engineering graduate and current Master’s student in Electrical Engineering at International University – Vietnam National University, HCMC. My work focuses on embedded systems, robotics, AIoT, signal processing, and machine learning applications for real-world engineering problems. I have experience as a teaching assistant, product developer, and researcher, with projects involving EEG-based brain-computer interfaces, IoT gas detection, robotic systems, and biomedical signal analysis.
+              Hi, I am <strong>{PROFILE.name}</strong>, an Automation and Control Engineering graduate and current Master’s student in Electrical Engineering at International University – Vietnam National University, HCMC. My work focuses on embedded systems, robotics, AIoT, signal processing, and machine learning applications for real-world engineering problems. I have experience as a teaching assistant, product developer, and researcher, with projects involving EEG-based brain-computer interfaces, IoT gas detection, robotic systems, and biomedical signal analysis.
             </p>
 
             <p>
