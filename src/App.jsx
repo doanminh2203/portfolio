@@ -105,7 +105,7 @@ function Header() {
     <header className="site-header">
       <nav className="nav">
         <a className="brand" href="#home">
-          <span className="brand-logo">K</span>
+          <span className="brand-logo">M</span>
           <span>Minh Doan</span>
         </a>
 
