@@ -21,7 +21,7 @@ const PROFILE = {
 
 const educationItems = [
   {
-    period: '2022 – Apr 2026',
+    period: '2022 – 2026',
     degree: 'BSc. Automation and Control Engineering',
     school: 'International University – Vietnam National University',
     location: 'Ho Chi Minh City',
@@ -30,7 +30,7 @@ const educationItems = [
       'Focused on automation, embedded systems, control engineering, robotics, and hardware-software integration.',
   },
   {
-    period: '2026 – Jul 2027',
+    period: '2026 – 2027',
     degree: 'ME. Electrical Engineering',
     school: 'International University – Vietnam National University',
     location: 'Ho Chi Minh City',
