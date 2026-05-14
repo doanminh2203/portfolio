@@ -7,7 +7,7 @@ const PROFILE = {
   location: 'Vietnam',
   role: 'Fresher Developer · GitHub Portfolio',
   github: 'https://github.com/doanminh2203',
-  bio: 'Automation & Control engineering at International University - VNU. Reasearch in Machine Learning & Deep Learning for Biomedical application',
+  bio: 'Automation & Control engineering at International University - VNU. Reasearch in Machine Learning & Deep Learning for Biomedical applications.',
   tags: [
     'C/C++',
     'Python',
@@ -18,6 +18,60 @@ const PROFILE = {
     'Research',
   ],
 }
+
+const educationItems = [
+  {
+    period: '2022 – Apr 2026',
+    degree: 'BSc. Automation and Control Engineering',
+    school: 'International University – Vietnam National University',
+    location: 'Ho Chi Minh City',
+    gpa: 'Cumulative GPA: 3.52',
+    description:
+      'Focused on automation, embedded systems, control engineering, robotics, and hardware-software integration.',
+  },
+  {
+    period: '2026 – Jul 2027',
+    degree: 'ME. Electrical Engineering',
+    school: 'International University – Vietnam National University',
+    location: 'Ho Chi Minh City',
+    gpa: 'Cumulative GPA: 4.00',
+    description:
+      'Graduate study in electrical engineering with research interests in AIoT, signal processing, embedded systems, and intelligent control.',
+  },
+]
+
+const honorItems = [
+  {
+    year: '2024',
+    title: 'International University Study Encouragement Scholarship',
+    type: 'Scholarship',
+  },
+  {
+    year: '2024',
+    title: '1st Prize - Bosch Embedded Academic Scholarship',
+    type: 'Award',
+  },
+  {
+    year: '2025',
+    title: "Advantech's AIoT Contest Award",
+    type: 'Contest Award',
+  },
+  {
+    year: '2025',
+    title: 'Eureka Research Award',
+    type: 'Research Award',
+  },
+  {
+    year: '2026',
+    title: '3rd Prize - Scientific Research Conference for Student',
+    type: 'Research Award',
+  },
+  {
+    year: '2026',
+    title: 'Coherent Corp. Scholarship',
+    type: 'Scholarship',
+  },
+]
 
 const fallbackRepos = [
   {
@@ -58,6 +112,7 @@ function Header() {
         <div className="nav-links">
           <a href="#about">About</a>
           <a href="#academic">Academic</a>
+          <a href="#honors">Honors</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </div>
@@ -235,34 +290,44 @@ function App() {
           </div>
         </section>
 
-        <section id="academic" className="section narrow">
-          <p className="section-kicker">Background</p>
-          <h2 className="section-title">Academic & Learning Journey</h2>
+       <section id="academic" className="section narrow">
+        <p className="section-kicker">Education</p>
+        <h2 className="section-title">Academic & Learning Journey</h2>
 
-          <div className="timeline">
-            <article className="timeline-item">
-              <span>Now</span>
+        <div className="timeline">
+          {educationItems.map((item) => (
+            <article className="timeline-item" key={item.degree}>
+              <span>{item.period}</span>
+
               <div>
-                <h3>Student & Self-directed Developer</h3>
-                <p>
-                  Focused on building real projects, improving coding fundamentals, and publishing
-                  work on GitHub.
+                <h3>{item.degree}</h3>
+                <p className="timeline-school">
+                  {item.school} · {item.location}
                 </p>
+                <p className="timeline-gpa">{item.gpa}</p>
+                <p>{item.description}</p>
               </div>
             </article>
+          ))}
+        </div>
+      </section>
 
-            <article className="timeline-item">
-              <span>Goal</span>
+      <section id="honors" className="section">
+        <p className="section-kicker">Recognition</p>
+        <h2 className="section-title">Honors & Awards</h2>
+
+        <div className="award-grid">
+          {honorItems.map((item) => (
+            <article className="award-card" key={`${item.year}-${item.title}`}>
+              <div className="award-year">{item.year}</div>
               <div>
-                <h3>Build a strong portfolio</h3>
-                <p>
-                  Create useful apps, improve UI design, write cleaner code, and document projects
-                  so others can understand them.
-                </p>
+                <p className="award-type">{item.type}</p>
+                <h3>{item.title}</h3>
               </div>
             </article>
-          </div>
-        </section>
+          ))}
+        </div>
+      </section>
 
         <section id="projects" className="section">
           <p className="section-kicker">GitHub</p>
