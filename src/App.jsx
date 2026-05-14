@@ -52,7 +52,7 @@ function Header() {
       <nav className="nav">
         <a className="brand" href="#home">
           <span className="brand-logo">K</span>
-          <span>Khanh Map</span>
+          <span>Minh Doan</span>
         </a>
 
         <div className="nav-links">
