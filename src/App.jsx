@@ -5,7 +5,7 @@ const PROFILE = {
   username: 'doanminh2203',
   email: 'mminhdoan2203@gmail.com',
   location: 'Vietnam',
-  role: 'Student Developer · GitHub Portfolio',
+  role: 'Fresher Developer · GitHub Portfolio',
   github: 'https://github.com/doanminh2203',
   bio: 'I build practical software projects, learn by shipping, and use GitHub as my public workspace.',
   tags: [
