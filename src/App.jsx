@@ -282,6 +282,8 @@ function App() {
             </p>
 
             <p>
+              I use this page to show what I am learning, what I am building, and where people can
+              find my code.
             </p>
           </div>
         </section>
